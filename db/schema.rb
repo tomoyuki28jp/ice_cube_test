@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20140524031015) do
     t.text     "body"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "schedule"
   end
 
   create_table "schedules", force: true do |t|
